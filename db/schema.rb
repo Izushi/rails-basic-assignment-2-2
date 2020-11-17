@@ -13,8 +13,8 @@
 ActiveRecord::Schema.define(version: 20201117061613) do
 
   create_table "users", force: :cascade do |t|
-    t.string   "name"
-    t.integer  "age"
+    t.string "name"
+    t.integer "age"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
   end
